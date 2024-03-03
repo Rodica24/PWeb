@@ -1,0 +1,257 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #FEECE2;
+  color: #333;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-bottom: 10px; /* Adjust as needed */
+}
+
+.logo-container img {
+  max-width: 80px; 
+}
+
+.logo-container h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+
+section {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+#introduction {
+    background-color: #f4f4f4;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#introduction .intro-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#introduction p {
+    line-height: 1.6;
+    color: #555;
+    font-size: 18px;
+}
+
+/* Add a border-radius and box shadow for a subtle card-like appearance */
+#introduction .intro-container {
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    padding: 20px;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+p {
+  line-height: 1.6;
+}
+
+nav {
+  background-color: #E2BFB3;
+  padding: 1em 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+a:hover {
+  background-color: #FFBE98;
+}
+
+.book-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.book {
+  width: 200px;
+  margin: 15px;
+  padding: 15px;
+  background-color: #eee;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  text-align: center;
+}
+
+#new-arrivals .book {
+  width: 250px;
+  margin: 15px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+#new-arrivals .book:hover {
+  transform: scale(1.05);
+}
+
+#new-arrivals img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+#new-arrivals h3 {
+  color: #555;
+}
+
+#new-arrivals p {
+  margin: 5px 0;
+  color: #777;
+}
+
+#new-arrivals button {
+  background-color: #333;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#new-arrivals button:hover {
+  background-color: #555;
+}
+
+#best-sellers .best-seller {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+#best-sellers .best-seller:hover {
+  transform: scale(1.05);
+}
+
+#best-sellers img {
+  max-width: 200px;
+  height: auto;
+  border-radius: 8px 0 0 8px;
+}
+
+#best-sellers .book-details {
+  padding: 20px;
+}
+
+#best-sellers h3 {
+  color: #333;
+}
+
+#best-sellers p {
+  margin: 5px 0;
+  color: #777;
+}
+
+#best-sellers button {
+  background-color: #333;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#best-sellers button:hover {
+  background-color: #B5C0D0;
+}
+
+#contact-us {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+#contact-us h2 {
+  color: #333;
+}
+
+#contact-us p {
+  margin-bottom: 20px;
+  color: #555;
+}
+
+#contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+#contact-form label {
+  margin-bottom: 8px;
+  color: #E2BFB3;
+}
+
+#contact-form textarea {
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+#contact-form button {
+  background-color: #E2BFB3;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#contact-form button:hover {
+  background-color: #555;
+}
+
+
+
+
